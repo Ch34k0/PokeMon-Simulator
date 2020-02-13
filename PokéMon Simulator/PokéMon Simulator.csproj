@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>PokéMon_Simulator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="MoveData\" />
+    <Folder Include="ItemData\" />
+    <Folder Include="PokéMonData\" />
+  </ItemGroup>
+
+</Project>
