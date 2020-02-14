@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PokéMon_Simulator.Enumerations
+﻿namespace PokéMon_Simulator.Enumerations
 {
-    public enum PS_Types : byte
+    public enum PS_Type : byte
     {
         None,
         Normal,

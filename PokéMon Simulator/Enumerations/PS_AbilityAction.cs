@@ -1,30 +1,55 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PokéMon_Simulator.Enumerations
+﻿namespace PokéMon_Simulator.Enumerations
 {
     public enum PS_AbilityAction : byte
     {
-        /// <summary>The ability is first announced.</summary>
+        /// <summary>
+        /// Die Fähigkeit wurde zum ersten Mal angekündigt.
+        /// </summary>
         Announced = 0,
-        /// <summary>The ability was changed.</summary>
+
+        /// <summary>
+        /// Die Fähigkeit wurde geändert.
+        /// </summary>
         Changed = 1,
-        /// <summary>The ability caused a Pokémon to change its appearance.</summary>
+
+        /// <summary>
+        /// Die Fähigkeit sorgte dafür, dass ein PokéMon seine Gestalt geändert hat.
+        /// </summary>
         ChangedAppearance = 2,
-        /// <summary>The ability changed a Pokémon's stats.</summary>
+
+        /// <summary>
+        /// Die Fähigkeit sorgte dafür, dass die Stats eines PokéMon geändert wurden.
+        /// </summary>
         ChangedStats = 3,
-        /// <summary>The ability changed a Pokémon's <see cref="PrimaryStatus"/> or <see cref="SecondaryStatus"/>.</summary>
+
+        /// <summary>
+        /// Die Fähigkeit sorgte dafür, dass der primäre oder sekundäre Status von PokéMon geändert wurde.
+        /// </summary>
         ChangedStatus = 4,
-        /// <summary>The ability was involved with damage.</summary>
+
+        /// <summary>
+        /// Die Fähigkeit hat was mit Schaden zu tun.
+        /// </summary>
         Damage = 5,
-        /// <summary>The ability prevented a Pokémon from being inflicted with a <see cref="PrimaryStatus"/> or <see cref="SecondaryStatus"/>.</summary>
+
+        /// <summary>
+        /// Die Fähigkeit sorgte dafür, dass ein PokéMon nicht mit einem primären oder sekundären Status befallen wurde.
+        /// </summary>
         PreventedStatus = 6,
-        /// <summary>The ability restored a Pokémon's HP.</summary>
+
+        /// <summary>
+        /// Die Fähigkeit sorgte dafür, dass die KP eines PokéMon geheilt wurden.
+        /// </summary>
         RestoredHP = 7,
-        /// <summary><see cref="Ability.SlowStart"/> ended.</summary>
+
+        /// <summary>
+        /// Saumselig ist zu Ende.
+        /// </summary>
         SlowStart_Ended = 8,
-        /// <summary>The ability was involved with weather.</summary>
+
+        /// <summary> 
+        /// Die Fähigkeit hat was mit Wetter zu tun.
+        /// </summary>
         Weather = 9
     }
 }
