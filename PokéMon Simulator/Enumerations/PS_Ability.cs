@@ -2,7 +2,7 @@
 {
     public enum PS_Ability : byte
     {
-        
+
 
         /// <summary>
         /// Die Fähigkeit wurde mit <see cref="PS_Move.GastroAcid"/> unterdrückt.
@@ -193,6 +193,7 @@
         CloudNine,
         SandStream,
         SnowWarning,
+        AirLock,
 
         /// <summary>
         /// Löst Feldeffekt aus.
@@ -338,7 +339,7 @@
         NaturalCure,
         Cacophony,
         BattleArmor,
-        AirLock,
+
         LiquidOoze,
         InnerFocus,
         Corrosion,

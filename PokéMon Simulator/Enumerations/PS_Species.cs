@@ -1151,7 +1151,7 @@
 
         Stunfisk = 618 | (0 << 0x10),
         Galarian_Stunfisk = 618 | (1 << 0x10),
-        
+
         Mienfoo = 619,
         Mienshao = 620,
 
@@ -1773,8 +1773,8 @@
 
         Eternatus = 890 | (0 << 0x10),
         Giga_Eternatus = 890 | (1 << 0x10),
-        
-        
+
+
         #endregion
     }
 }
